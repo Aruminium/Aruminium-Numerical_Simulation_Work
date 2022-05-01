@@ -17,11 +17,20 @@ int main(void){
 	for(int i= 0;i < N;i++)Y[i] = sin(X[i]);
 	double memo[N];
 	double fn;
+	printf("#x y");
+	for(float n = X[1];n <= X[2];n += 0.01){
+		memo[0] = 1;
+		for(int i = 1;i < N-1;i++) memo[i] = memo[i-1]*(n-X[i-1]);
+
+		fn = memo[0]*f1(0) + memo[1]*f2(0,1) + memo[2]*f3(0,1,2) + memo[3]*f4(0,1,2,3);
+		printf("%f %f\n", n, fn);
+	}
+
 	memo[0] = 1;
 	for(int i = 1;i < N-1;i++) memo[i] = memo[i-1]*(x-X[i-1]);
 
 	fn = memo[0]*f1(0) + memo[1]*f2(0,1) + memo[2]*f3(0,1,2) + memo[3]*f4(0,1,2,3);
-	printf("%f", fn);
+	printf("\n#%f %f\n", x, fn);
 	return 0;
 }
 

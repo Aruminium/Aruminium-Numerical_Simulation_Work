@@ -9,8 +9,23 @@ double Y[N];
 
 int main(void){
 	for(int i= 0;i < N;i++)Y[i] = sin(X[i]);
-	double pn = 0;
 	double Nk;
+	printf("#x y\n");
+	for(float n = X[1];n <= X[2];n += 0.01){
+		double pn = 0;
+		for(int i = 0;i < N;i++){
+			Nk = Y[i];
+			for(int j = 0;j < N;j++){
+				if(i == j)continue;
+				Nk *= (n - X[j]);
+				Nk /= (X[i] - X[j]);
+			}
+			pn += Nk;
+		}
+		printf("%f %f\n", n, pn);
+
+	}
+	double pn = 0;
 	for(int i = 0;i < N;i++){
 		Nk = Y[i];
 		for(int j = 0;j < N;j++){
@@ -20,5 +35,6 @@ int main(void){
 		}
 		pn += Nk;
 	}
-	printf("%f",pn);
+	printf("\n#%f %f\n", x, pn);
+	return 0;
 }

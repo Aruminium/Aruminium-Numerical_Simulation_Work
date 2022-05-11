@@ -4,3 +4,7 @@ Newton
 linear
 *.dat
 .DS_Store
+
+#設定ファイル
+!setting.json
+!extensions.json

@@ -4,6 +4,7 @@ Newton
 linear
 *.dat
 .DS_Store
+ex??
 
 #設定ファイル
 !setting.json

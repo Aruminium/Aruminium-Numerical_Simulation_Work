@@ -17,7 +17,7 @@
 
 ![step2](https://github.com/Aruminium/Aruminium-Numerical_Simulation_Work/blob/main/work05/step2/step2.png)
 
-[1.166, 1.667]に範囲を狭めることができた。
+[1.165, 1.667]に範囲を狭めることができた。
 
 初期値1.166におけるxの推定値は
 1.165562 となった.

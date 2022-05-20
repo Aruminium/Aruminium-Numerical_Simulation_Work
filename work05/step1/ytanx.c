@@ -4,7 +4,7 @@
 
 int main(void){
 	printf("#x y\n");
-	for(double i=0; i<=1+d; i+=d){
+	for(double i=-N; i<=N+d; i+=d){
 		printf("%f %f\n", i, f(i));
 	}
 	return 0;

@@ -13,5 +13,3 @@
 初期値が理論解に近いほど、つまり誤差が小さいほど逐次代入法の実行回数は減る.
 
 従って[1.15, 1.20]をstep0.001で実行し推定値と実行回数をプロットする.
-
-![step 1](https://github.com/Aruminium/Aruminium-Numerical_Simulation_Work/blob/main/work05/step1/step1.png)

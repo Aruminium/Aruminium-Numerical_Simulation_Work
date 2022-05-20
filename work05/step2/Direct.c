@@ -17,7 +17,7 @@ typedef struct data {
 data* head;
 
 double f(double);
-void sort(data,data);
+void sort();
 void insert(data);;
 data* newData(data);
 void deleteAll();
@@ -104,6 +104,7 @@ void view(){
 
 	while(itr != NULL){
 		printf("%f %d\n", itr->x, itr->n);
+		printf("#%f\n\n", itr->ans);
 		itr = itr->next;
 	}
 }

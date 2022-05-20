@@ -1,8 +1,17 @@
 2x = tan x
+
 の0より大きい最小の正の実根を求める。
 
-## step1 逐次代入法で考える
+## step1 y=2x, y=tan(x)のグラフをプロット
 
-### y=2x, y=tan(x)のグラフより初期値を考察
+![step 1](https://github.com/Aruminium/Aruminium-Numerical_Simulation_Work/blob/main/work05/step1/step1.png)
+
+逐次代入法においての初期値は [1.15, 1.20] であると考察できる
+
+## step2 逐次代入法を試す
+
+初期値が理論解に近いほど、つまり誤差が小さいほど逐次代入法の実行回数は減る.
+
+従って[1.15, 1.20]をstep0.001で実行し推定値と実行回数をプロットする.
 
 ![step 1](https://github.com/Aruminium/Aruminium-Numerical_Simulation_Work/blob/main/work05/step1/step1.png)

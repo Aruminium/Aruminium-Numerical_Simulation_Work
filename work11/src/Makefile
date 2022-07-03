@@ -1,0 +1,2 @@
+hoge:
+	cargo run

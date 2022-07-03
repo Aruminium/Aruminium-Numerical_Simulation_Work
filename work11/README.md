@@ -36,4 +36,4 @@ $$
 $$
 
 
-[参考](http://www.slis.tsukuba.ac.jp/~fujisawa.makoto.fu/lecture/mic/text/10_eigen.pdf)
+[参考(引用元)](http://www.slis.tsukuba.ac.jp/~fujisawa.makoto.fu/lecture/mic/text/10_eigen.pdf)

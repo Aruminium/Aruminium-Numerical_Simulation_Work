@@ -17,10 +17,15 @@ $$ \LARGE |x^{(k)}| = 1 $$
 $$
 \LARGE
 R(x) = \frac{x⋅Ax}{x⋅x} \\
+
 \rightarrow R(v_1)=\frac{v_1⋅Av_1}{v_1⋅v_1} = \frac{v_1⋅\lambda_1 v_1}{v_1⋅v_1}\\
+
 \large 固有値の定義 Av=\lambda v より \\
+
 \LARGE = \lambda_1 \\
+
 \large つまり,毎半複以下の式で固有値が計算できる \\
+
 \LARGE R(x^{(k)})=\frac{x^{(k)}⋅Ax^{(k)}}{x^{(k)}⋅x^{(k)}} = \frac{x^{(k)}⋅ x^{(k+1)}}{x^{(k)}⋅x^{(k)}} = \lambda^{(k)}
 $$
 
